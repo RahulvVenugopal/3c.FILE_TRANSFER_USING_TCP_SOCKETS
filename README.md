@@ -10,7 +10,6 @@ To write a python program for creating File Transfer using TCP Sockets Links
 ## PROGRAM
 ~~~
 SERVER: 
- 
 import socket                                                                           
 port = 60000 
 s = socket.socket() 
@@ -32,14 +31,9 @@ f.close()
 print('Done sending') 
 conn.send('Thank you for connecting'.encode()) 
 conn.close() 
- 
- 
 CLIENT: 
 4/17/24, 5:13 PM arbasil05/3c.FILE_TRANSFER_USING_TCP_SOCKETS 
 https://github.com/arbasil05/3c.FILE_TRANSFER_USING_TCP_SOCKETS/tree/main 2/2 
- 
- 
- 
 import socket                                                                              
 s = socket.socket() 
 host = socket.gethostname() 
