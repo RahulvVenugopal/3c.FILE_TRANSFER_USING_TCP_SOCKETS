@@ -61,7 +61,7 @@ print('Successfully get the file')
 s.close() 
 print('connection closed')
 ~~~
-## OUPUT
+
 
 ![Screenshot (302)](https://github.com/Ragavan762006/3c.FILE_TRANSFER_USING_TCP_SOCKETS/assets/144870714/26332cd6-f9dd-4e09-ae26-ad74e2522c0a)
 
